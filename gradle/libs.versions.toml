@@ -14,11 +14,11 @@ lombok = "1.18.38"
 gson = "2.13.1"
 
 # terminal
-jline = "3.30.0"
+jline = "3.30.4"
 
 # Networking
 grpc = "1.72.0"
-redis = "6.6.0.RELEASE"
+redis = "6.7.0.RELEASE"
 
 # Platforms
 velocity = "3.4.0-SNAPSHOT"
