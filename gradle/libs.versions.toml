@@ -22,6 +22,7 @@ redis = "6.7.0.RELEASE"
 
 # Platforms
 velocity = "3.4.0-SNAPSHOT"
+waterdog = "2.0.3-SNAPSHOT"
 
 [libraries]
 # Logging
@@ -49,6 +50,7 @@ redis = { group = "io.lettuce", name = "lettuce-core", version.ref = "redis" }
 
 # Platforms
 velocity =  { group = "com.velocitypowered", name = "velocity-api", version.ref = "velocity" }
+waterdog =  { group = "dev.waterdog.waterdogpe", name = "waterdog", version.ref = "waterdog" }
 
 [bundles]
 logging = ["slf4j", "log4j", "log4j-sl4j-impl"]

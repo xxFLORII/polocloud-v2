@@ -1,0 +1,5 @@
+name: CloudBrige
+main: dev.httpmarco.polocloud.bridges.WaterdogBootstrap
+api: 2.0.0
+author: xxFLORII
+version: 1.0.0

@@ -4,7 +4,9 @@ plugins {
 
 dependencies {
     compileOnly(libs.velocity)
+    compileOnly(libs.waterdog)
     annotationProcessor(libs.velocity)
+    annotationProcessor(libs.waterdog)
 
     compileOnly(project(":polocloud-api"))
 

@@ -1,0 +1,1 @@
+{"id":"polocloud-bridge","name":"Polocloud-Bridge","version":"1.0.0-SNAPSHOT","description":"Apply platform features","url":"https://github.com/HttpMarco/polocloud","authors":["HttpMarco"],"dependencies":[],"main":"dev.httpmarco.polocloud.bridges.velocity.VelocityBootstrap"}
