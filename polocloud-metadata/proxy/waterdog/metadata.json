@@ -1,26 +1,26 @@
 {
-  "name": "velocity",
+  "name": "waterdog",
   "type": "PROXY",
   "language": "JAVA",
-  "url": "https://api.papermc.io/v2/projects/velocity/versions/%version%/builds/%buildId%/downloads/velocity-%version%-%buildId%.jar",
+  "url": "https://github.com/WaterdogPE/WaterdogPE/releases/download/latest/Waterdog.jar",
   "shutdownCommand": "end",
   "separateClassLoader": false,
   "bridgePath": "plugins",
   "filePrepareProcess": [
     {
-      "type": "TOML",
-      "name": "velocity",
+      "type": "YAML",
+      "name": "config",
       "flag": "FILE_CLONE_OR_UPDATE",
       "content": {
-        "bind": "\"[%PORT%]\""
+        "host": "0.0.0.0:[%PORT%]"
       }
     }
   ],
   "startArguments": [],
   "versions": [
     {
-      "version": "3.4.0-SNAPSHOT",
-      "buildId": 498
+      "version": "latest",
+      "buildId": 0
     }
   ]
 }

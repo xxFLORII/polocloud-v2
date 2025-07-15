@@ -1,0 +1,26 @@
+{
+  "name": "nukkit",
+  "type": "SERVER",
+  "language": "JAVA",
+  "url": "https://repo.opencollab.dev/api/maven/latest/file/maven-snapshots/cn/nukkit/nukkit/1.0-SNAPSHOT?extension=jar",
+  "shutdownCommand": "stop",
+  "separateClassLoader": true,
+  "bridgePath": "plugins",
+  "filePrepareProcess": [
+    {
+      "type": "PROPERTIES",
+      "name": "server",
+      "flag": "CREATE_OR_UPDATE",
+      "content": {
+        "server-port": "[%PORT%]"
+      }
+    }
+  ],
+  "startArguments": [],
+  "versions": [
+    {
+      "version": "latest",
+      "buildId": 0
+    }
+  ]
+}
