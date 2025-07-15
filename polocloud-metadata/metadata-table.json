@@ -1,8 +1,10 @@
 {
   "availableProxies": [
-    "velocity"
+    "velocity",
+    "waterdog"
   ],
   "availableServers": [
-    "paper"
+    "paper",
+    "nukkit"
   ]
 }
